@@ -1,0 +1,54 @@
+
+
+nav{
+    position: fixed;
+}
+
+body{
+    background-color: white;
+}
+
+
+.oradores h6{
+    font-weight: 200;
+    font-size: small;
+}
+
+#playa{
+    color: white;
+    background-color: rgba(53, 58,64, 1);
+}
+
+div.info{
+    background-color: rgba(53, 58,64, 1);
+    width: 100%;
+}
+
+#mar{
+    background-color: transparent;
+}
+
+.formulario{
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+.formulario h6{
+font-weight: 200;
+font-size: smaller;
+}
+.formulario sub{
+    float: left;
+    color: lightslategray;
+}
+
+#enviar{
+    background-color: rgba(150, 201,62, 1);
+    color: white;
+}
+
+footer{
+    background-image: linear-gradient(to left, rgba(30, 76,102, 1), rgba(28, 61, 78, 1));
+    color: white;
+    padding: 1.5% 13%;
+}
