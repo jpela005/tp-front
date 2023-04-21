@@ -1,13 +1,12 @@
 
 
-nav{
-    position: fixed;
-}
-
 body{
     background-color: white;
 }
 
+#header p{
+    font-size: large;
+}
 
 .oradores h6{
     font-weight: 200;
@@ -37,6 +36,7 @@ div.info{
 font-weight: 200;
 font-size: smaller;
 }
+
 .formulario sub{
     float: left;
     color: lightslategray;
@@ -50,5 +50,7 @@ font-size: smaller;
 footer{
     background-image: linear-gradient(to left, rgba(30, 76,102, 1), rgba(28, 61, 78, 1));
     color: white;
-    padding: 1.5% 13%;
+    padding: 0.1% 5%;
 }
+
+
