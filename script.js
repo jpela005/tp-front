@@ -28,8 +28,7 @@ function aplicarDescuento(total, descuento) {
   }
 
 // Evento para calcular el total al cambiar la cantidad o la categoría
-cantidadInput.addEventListener("change", calcularTotal);
-categoriaSelect.addEventListener("change", calcularTotal);
+document.getElementById("resumen").addEventListener("click", calcularTotal);
 
 
 
